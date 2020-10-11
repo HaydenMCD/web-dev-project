@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    /*
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+    */
+    font-family: 'Raleway', thin,  serif;
+}
+
+.firstpage{
+    height: 100vh;
+    background-color: white;
+}
+
+.title{
+    font-size: 3.5vh;
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+h1{
+    font-size: 7vh; 
+    color:gray;
+}
+
+
+.navmenu{
+    width: 40px;
+    display: block;
+    text-align: right;
+    position: fixed;
+    left: auto;
+    padding: 10px 0 0 20px;
+}
+
+.navmenu div{
+    background-color: black;
+    height: 2px;
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+    justify-content: flex-end;
+}
+
+.one{
+    width: 20px;
+}
+
+.two{
+    width: 40px;
+}
+
+.three{
+    width: 20px;
+
+}
+
+.navmenu:hover div{
+    width: 40px;
+}
+
+
+h1{
+    font-size: 25;
+    margin: 0 20px;
+}
+
+.firstpagetext{
+    
+    text-align: center;
+    margin: 7vw auto 5vw;
+    max-width: 55%;
+}
+
+.homelinks{
+    display: flex;
+    margin-top: 8vw;
+    justify-content: center;
+}
+
+.ourwork{
+    font-size: 1.5vw;
+    margin-right: 4vh;
+    text-align: right;
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.book{
+    font-size: 1.5vw;
+    margin-left: 4vh;
+    border-bottom: 2px solid;
+}
+
+
+.secondpage{
+    height: 100vh;
+    width: 99vw;
+    background-color: black;
+}
+
+
+.thirdpage{
+    height: 200vh;
+}
