@@ -1,9 +1,8 @@
 body{
     margin: 0;
-    /*
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
-    */
-    font-family: 'Raleway', thin,  serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', thin  serif;
 }
 
 .firstpage{
@@ -15,6 +14,8 @@ body{
     font-size: 3.5vh;
     margin-top: 2vw;
     margin-left: 3vw;
+    position: fixed;
+    color:gray;
 }
 
 h1{
@@ -22,42 +23,65 @@ h1{
     color:gray;
 }
 
-
-.navmenu{
-    width: 40px;
-    display: block;
-    text-align: right;
+.menu-btn{
     position: fixed;
-    left: auto;
-    padding: 10px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-left: 94vw;
 }
 
-.navmenu div{
-    background-color: black;
-    height: 2px;
-    margin: 5px 0;
-    border-radius: 25px;
-    transition: 0.3s;
-    justify-content: flex-end;
-}
-
-.one{
-    width: 20px;
-}
-
-.two{
+.menu-btn_burger{
     width: 40px;
+    height: 2.5px;
+    background: black;
+    transition: all .3s ease-in-out;
 }
 
-.three{
+.menu-btn_burger::before,
+.menu-btn_burger::after{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    background: black;
+    transition: all .3s ease-in-out;
+}
+
+.menu-btn_burger::before{
+    transform: translateY(-10px);
     width: 20px;
-
+    text-align: right;
 }
 
-.navmenu:hover div{
+.menu-btn_burger::after{
+    transform: translateY(10px);
+    width: 20px;
+    margin-left: 25%;
+}
+
+
+/*Menu Animation*/
+
+.menu-btn.open .menu-btn_burger{
+    transform: translateX(-40px);
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn_burger::before{
+    transform: rotate(45deg) translate(25px, -25px);
     width: 40px;
+    height: 2.5px;
 }
 
+.menu-btn.open .menu-btn_burger::after{
+    transform: rotate(-45deg) translate(25px, 25px);
+    width: 40px;
+    height: 2.5px;
+}
 
 h1{
     font-size: 25;
@@ -99,6 +123,22 @@ h1{
 }
 
 
+/*Third Page*/
 .thirdpage{
     height: 200vh;
+}
+
+.thirdpage-text{
+    max-width: 35vw;
+    margin-left: 11vw;
+}
+
+.ourgoal{
+    font-size: 3.5vw;
+}
+
+.ourgoal-equation{
+    margin-left: 11vw;
+    font-size: 3.5vw;
+    max-width: 45vw;
 }
