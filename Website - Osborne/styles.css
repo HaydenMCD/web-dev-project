@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    z-index: 0;
     box-sizing: border-box;
     font-family: 'Optima', serif;
 }
@@ -19,7 +20,7 @@ body{
 }
 
 h1{
-    font-size: 7vh; 
+    font-size: 4vw; 
     color:gray;
     font-weight: normal;
 }
@@ -65,6 +66,11 @@ h1{
     margin-left: 25%;
 }
 
+.menu.open{
+    height: 100vh;
+    background-color: red;
+}
+
 
 /*Menu Animation*/
 
@@ -94,28 +100,39 @@ h1{
 .firstpagetext{
     
     text-align: center;
-    margin: 7vw auto 5vw;
-    max-width: 55%;
+    margin: 7vw auto 0;
+    max-width: 55%; 
 }
 
 .homelinks{
     display: flex;
-    margin-top: 8vw;
     justify-content: center;
 }
 
 .ourwork{
     font-size: 1.5vw;
     margin-right: 4vh;
-    text-align: right;
     border-bottom: 2px solid red;
     color: red;
+    letter-spacing: 1px;
+    transition: margin-bottom .5s;
 }
 
 .book{
     font-size: 1.5vw;
     margin-left: 4vh;
     border-bottom: 2px solid;
+    transition: margin-bottom .3s;
+}
+
+.ourwork:hover{
+    transition: margin-bottom 1.5s ease-in-out;
+    margin-bottom: 5px;
+}
+
+.book:hover{
+    transition: 1.5s;
+    margin-bottom: 5px;
 }
 
 
