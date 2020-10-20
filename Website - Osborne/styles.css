@@ -66,9 +66,17 @@ h1{
     margin-left: 25%;
 }
 
+.menu{
+    top: 100%;
+    height: 0;
+    transition: .5s;
+}
+
 .menu.open{
+    top: 100%;
     height: 100vh;
     background-color: red;
+    transition: .5s;
 }
 
 
@@ -115,18 +123,18 @@ h1{
     border-bottom: 2px solid red;
     color: red;
     letter-spacing: 1px;
-    transition: margin-bottom .5s;
+    transition: .5s;
 }
 
 .book{
     font-size: 1.5vw;
     margin-left: 4vh;
     border-bottom: 2px solid;
-    transition: margin-bottom .3s;
+    transition: .5s;
 }
 
 .ourwork:hover{
-    transition: margin-bottom 1.5s ease-in-out;
+    transition: 1.5s;
     margin-bottom: 5px;
 }
 
@@ -171,10 +179,30 @@ h1{
     background-color: black;
 }
 
+.fourth-title{
+    width: 77vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 256px 0px 0px 0px;
+}
+
 .client-title{
-    color: gray;
+    color: white;
     font-size: 4vw;
-    max-width: 25vw;
-    font-weight: normal;
-    margin-left: 11vw;
+    line-height: 5vw;
+    margin-bottom: 86px;
+    font-weight: 100;
+}
+
+.client-title span{
+    color: gray;
+}
+
+.first-client{
+    height: 40vw;
+    width: 77vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9vw;
+    display: flex;
 }
