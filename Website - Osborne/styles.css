@@ -184,7 +184,7 @@ h1{
     width: 77vw;
     margin-left: auto;
     margin-right: auto;
-    padding: 256px 0px 0px 0px;
+    padding: 256px 0px 74px 0px;
 }
 
 .client-title{
@@ -199,13 +199,30 @@ h1{
     color: gray;
 }
 
-.first-client{
+
+.first-client-div{
     height: 40vw;
     width: 77vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 9vw;
     display: flex;
+    flex-direction: column;
+}
+
+.first-client{
+    width: 39vw;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+
+.second-client{
+
+}
+
+.third-client{
+
 }
 
 .person{
@@ -214,26 +231,43 @@ color: white;
 
 
 .client-picture{
-
+    width: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
-.client-name{
-margin-top: 11px;
-font-size: 18px;
+.profile-pic{
+    flex: 0 auto;
+    margin-right: 11px;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .client-car{
-color: gray;
+    margin-top: 11px;
+    font-weight: 300;
+color: #fff;
 }
 
-.bio{
-    color: white;
+.client-name{
+    color: #7e7e7e;
 }
 
 .bio-text{
-font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 3vw;
+    letter-spacing: .5px;
 }
 
-.bio-link{
-color: red;
+
+.carheading{
+    font-size: 2.5vw;
 }

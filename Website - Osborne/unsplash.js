@@ -5,6 +5,3 @@
 const api = 'https://api.unsplash.com/photos/?8BjrXDzcvxDXgcdlDo7mgCAJHKP3BLDgKTlrWAwFsO8';
 
 
-var getImg = new XMLHttpRequest();
-var image = document.getElementById("image");
-
