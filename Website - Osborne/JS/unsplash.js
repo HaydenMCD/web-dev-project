@@ -10,11 +10,23 @@ const api = 'https://api.unsplash.com/photos/?client_id=?8BjrXDzcvxDXgcdlDo7mgCA
 //const focus = 'https://unsplash.com/photos/t1_slwbaBp8'
 
 //const audiDriver= 'https://unsplash.com/photos/ILip77SbmOE'
-//const BWMDriver= 'https://unsplash.com/photos/rriAI0nhcbc'
+//const BWMDriver= 'https://api.unsplash.com/photos/brblWfwRmtU&client_id=9XxUx99pLLvdMrq1H2aJOedovrSUDNfc_GfTQIz0_zY'
 //const focusDriver= 'https://unsplash.com/photos/VVEwJJRRHgk'
 
 
 
+//BMW picture
+const BMW = 'https://api.unsplash.com/photos/brblWfwRmtU?client_id=9XxUx99pLLvdMrq1H2aJOedovrSUDNfc_GfTQIz0_zY'
 
+fetch(BMW)
+    .then(response => response.json())
+    .then(function(data){
+        let image = data;
+        renderimage(image);
+    })
 
-let pic = fetch ('https://api.unsplash.com/search/photos?query=race_car&client_id=9XxUx99pLLvdMrq1H2aJOedovrSUDNfc_GfTQIz0_zY')
+function renderimage(image){
+    console.log(image);
+    $('#first-pic').append('<img ' + 'src =' + image.urls.full + ' />');
+}
+
