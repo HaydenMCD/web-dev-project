@@ -27,6 +27,5 @@ fetch(BMW)
 
 function renderimage(image){
     console.log(image);
-    $('#first-pic').append('<img ' + 'src =' + image.urls.full + ' />');
+    $('#bmw-pic').append('<img ' + 'src =' + image.urls.full + ' />');
 }
-
