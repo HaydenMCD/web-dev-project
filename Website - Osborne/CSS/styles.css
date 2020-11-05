@@ -3,7 +3,7 @@ body{
     padding: 0;
     z-index: 0;
     box-sizing: border-box;
-    font-family: 'Optima', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .firstpage{
@@ -35,6 +35,7 @@ h1{
     cursor: pointer;
     margin-left: 94vw;
     padding-top: 20px;
+    z-index: 11;
 }
 
 .menu-btn_burger{
@@ -73,8 +74,14 @@ h1{
 }
 
 .menu.open{
-    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     visibility: visible;
+    position: fixed;
+    z-index: 10;
+
 }
 
 
@@ -151,7 +158,7 @@ h1{
 
 
 /*Third Page*/
-.thirdpage{
+.thirdpage {
     height: 160vh;
 }
 
@@ -307,6 +314,7 @@ img{
 }
 
 
+/*Fifth Page*/
 .car-main{
     position: relative;
     display: block;
