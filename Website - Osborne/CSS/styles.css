@@ -12,6 +12,7 @@ body{
 }
 
 .title{
+    z-index: 15;
     font-size: 3.5vh;
     margin-top: 2vw;
     margin-left: 3vw;
@@ -68,9 +69,10 @@ h1{
 }
 
 .menu{
-    background-color: red;
+    background-color: black;
     transition: .5s;
     visibility: hidden;
+    height: 0%;
 }
 
 .menu.open{
@@ -78,10 +80,46 @@ h1{
     left: 0;
     bottom: 0;
     right: 0;
+    height: 100%;
     visibility: visible;
     position: fixed;
     z-index: 10;
+    transition: 1s;
+}
 
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-right: 10vw;
+    margin-left: auto;
+    margin-top: 5vh;
+}
+
+.menu-link{
+    font-size: 4vw;
+    color: rgb(71, 71, 71);
+    text-align: right;
+    line-height: 25px;
+    transition: .6s;
+}
+.menu-active-link{
+    font-size: 4vw;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    transition: .6s;
+}
+
+.menu-link:hover{
+    color: white;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.menu-active-link:hover{
+    cursor: pointer;
+    transition: .6s;
 }
 
 
@@ -387,3 +425,4 @@ img{
 }.car-info a:hover{
     line-height: 40px;
 }
+
