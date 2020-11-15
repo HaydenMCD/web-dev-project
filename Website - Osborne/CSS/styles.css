@@ -83,7 +83,7 @@ h1{
     height: 100%;
     visibility: visible;
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     transition: 1s;
 }
 
