@@ -522,3 +522,51 @@ img{
     line-height: 40px;
     cursor: pointer;
 }
+
+
+/*Brands title*/
+
+.clients-section{
+    margin-bottom: 25.4vw;
+}
+
+.clients-centered{
+    width: 40vw;
+    justify-content: center;
+    display: flex;
+    margin: 9.5vw auto 7vw;
+}
+
+.clients-heading{
+    font-size: 4vw;
+    line-height: 5vw;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    color: #989898;
+}
+
+.clients-span{
+    color: #2b2b2b;
+}
+
+/*Brands grid*/
+
+.quote-div{
+    display: grid;
+    width: 77vw;
+    margin: 7.2vw auto 100px;
+    padding-top: 0px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 148px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.quote-grid{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
