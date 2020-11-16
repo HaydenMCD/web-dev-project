@@ -36,7 +36,7 @@ h1{
     cursor: pointer;
     margin-left: 94vw;
     padding-top: 20px;
-    z-index: 11;
+    z-index: 110;
 }
 
 .menu-btn_burger{
@@ -71,7 +71,7 @@ h1{
 .menu{
     background-color: black;
     transition: .5s;
-    visibility: hidden;
+    opacity: 0;
     height: 0%;
 }
 
@@ -81,9 +81,9 @@ h1{
     bottom: 0;
     right: 0;
     height: 100%;
-    visibility: visible;
+    opacity: 1;
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     transition: 1s;
 }
 
