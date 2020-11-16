@@ -570,3 +570,170 @@ img{
     padding: 0px;
     justify-content: center;
 }
+
+
+
+.services-section{
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    background-color: #1d1d1d;
+}
+
+
+.services-contain{
+    display: flex;
+    width: 77vw;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.services-text{
+    width: 30vw;
+}
+
+/*Using an id for the same styling on all services*/
+#service-description{
+    position: absolute;
+    width: 19vw;
+    margin-top: 25vw;
+    color: #d3d3d3;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
+
+.services-headings{
+    width: 40vw;
+}
+
+.services-title{
+    opacity: 1;
+    width: 37vw;
+    margin-bottom: 86px;
+    color: #fff;
+    font-size: 4vw;
+    line-height: 5vw;
+
+}
+
+.services-title-span{
+margin-top: 46px;
+margin-bottom: 0px;
+color: #7e7e7e;
+font-size: 4vw;
+line-height: 5vw;
+}
+
+.services-names{
+    margin-bottom: 3vw;
+    transition: .2s ease;
+    color: #7e7e7e;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-top: 0px;
+}
+
+.services-names:hover{
+color: #fff;
+}
+
+
+
+.owner-section{
+    margin-top: 28.6px;
+}
+
+.owner-block{
+    display: flex;
+    width: 77vw;
+    margin: 9.5vw auto 7vw;
+    justify-content: flex-start;
+}
+
+
+.owner-text{
+    display: flex;
+    width: 40vw;
+    margin-bottom: 0px;
+    padding-right: 3.5vw;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+}
+
+/*Title on the owner page*/
+.owner-title{
+    margin-bottom: 0px;
+    font-size: 4vw;
+    line-height: 5vw;
+    margin-top: 20px;
+    padding-top: 0px;
+    color: #989898;
+}
+
+.owner-title-span{
+    color: #1d1d1d;
+    font-size: 4vw;
+    line-height: 5vw;
+}
+
+/*Owners name below title*/
+.owner-name{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    margin-top: 46px;
+    margin-bottom: 0px;
+    color: #7e7e7e;
+}
+
+/*Paragraph about the owner below the owners name*/
+.owner-paragraph{
+margin-bottom: 1vw;
+margin-top: 0px;
+text-align: left;
+overflow: visible;
+width: 37vw;
+color: #696969;
+font-size: 1.4vw;
+line-height: 2.4vw;
+}
+
+.owner-link-div{
+    align-self: flex-start;
+}
+
+.owner-link{
+    position: relative;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: stretch;
+    border-bottom: 1px solid #eb364c;
+    color: #eb364c;
+    line-height: 30px;
+    transition: .5s ease;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.owner-link:hover{
+    line-height: 40px;
+    transition: .5s ease;
+}
+
+
+/*A picture of the owner that sits beside the information about the owner*/
+.owner-picture-div{
+    max-width: 50vw;
+}
+
+.owner-picture{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
