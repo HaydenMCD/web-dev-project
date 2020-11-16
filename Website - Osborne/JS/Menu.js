@@ -14,10 +14,11 @@ menuBtn.addEventListener('click', () => {
         menuOpen = false;
     }
 	
-	
+	/*
 	$(document).ready(function) () {
 		$(".menuBtn").click(function () {
 			if 	($(".menu").height() == 1) {
 				document.getElementById(".menu-links").style.opacity = 0;
 			}
+			*/
 });
