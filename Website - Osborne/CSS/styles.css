@@ -603,6 +603,15 @@ img{
     line-height: 2vw;
 }
 
+.service-description{
+    position: absolute;
+    width: 19vw;
+    margin-top: 25vw;
+    color: #d3d3d3;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
 
 .services-headings{
     width: 40vw;
