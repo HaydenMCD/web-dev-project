@@ -1,8 +1,213 @@
 [
     {
-        "test" : "something"
+        "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+        "author": "Thomas Edison"
     },
     {
-        "tets" : "something"
-    }
+        "text": "A house divided against itself cannot stand.",
+        "author": "Abraham Lincoln"
+    },
+    {
+        "text": "Be the chief but never the lord.",
+        "author": "Lao Tzu"
+    },
+    {
+        "text": "Peace comes from within. Do not seek it without.",
+        "author": "Buddha"
+    },
+    {
+        "text": "Life is change. Growth is optional. Choose wisely.",
+        "author": "Karen Clark"
+    },
+    {
+        "text" : "This is my swamp", 
+        "author": "Shrek"
+    },
+    {
+        "text": "Having nothing, nothing can he lose.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Everything in life is luck.",
+        "author": "Donald Trump"
+    },
+    {
+        "text": "Do, or do not. There is no try.",
+        "author": "Yoda"
+    },
+    {
+        "text": "I destroy my enemies when I make them my friends.",
+        "author": "Abraham Lincoln"
+    },
+    {
+      "text": "The heart has its reasons which reason knows not of.",
+      "author": "Blaise Pascal"
+    },
+    {
+      "text": "Be great in act, as you have been in thought.",
+      "author": "William Shakespeare"
+    },
+    {
+      "text": "Imagination rules the world.",
+      "author": "Napoleon Bonaparte"
+    },
+    {
+      "text": "Kind words do not cost much. Yet they accomplish much.",
+      "author": "Blaise Pascal"
+    },
+    {
+      "text": "There is no greater harm than that of time wasted.",
+      "author": "Michelangelo"
+    },
+    {
+      "text": "Intuition will tell the thinking mind where to look next.",
+      "author": "Jonas Salk"
+    },{
+        "text": "Fears are nothing more than a state of mind.",
+        "author": "Napoleon Hill"
+      },
+      {
+        "text": "The journey of a thousand miles begins with one step.",
+        "author": "Lao Tzu"
+      },
+      {
+        "text": "Efficiency is doing things right; effectiveness is doing the right things.",
+        "author": "Peter Drucker"
+      },
+      {
+        "text": "Blaze with the fire that is never extinguished.",
+        "author": "Luisa Sigea"
+      },
+      {
+        "text": "Don't cry because it's over. Smile because it happened.",
+        "author": "Dr. Seuss"
+      },
+      {
+        "text": "No is easier to do. Yes is easier to say.",
+        "author": "Jason Fried"
+      },
+      {
+        "text": "To be wrong is nothing unless you continue to remember it.",
+        "author": "Confucius"
+      },
+      {
+        "text": "Yesterdays home runs don't win today's games.",
+        "author": "Babe Ruth"
+      },
+      {
+        "text": "Silence is deep as Eternity, Speech is shallow as Time.",
+        "author": "Carlyle"
+      },
+      {
+        "text": "Don't smother each other. No one can grow in the shade.",
+        "author": "Leo F. Buscaglia"
+      },
+      {
+        "text": "An ant on the move does more than a dozing ox",
+        "author": "Lao Tzu"
+      },
+      {
+        "text": "You can't shake hands with a clenched fist.",
+        "author": "Indira Gandhi"
+      },
+      {
+        "text": "A good decision is based on knowledge and not on numbers.",
+        "author": "Plato"
+      },
+      {
+        "text": "The cautious seldom err.",
+        "author": "Confucius"
+      },
+      {
+        "text": "If there is no struggle, there is no progress.",
+        "author": "Frederick Douglass"
+      },
+      {
+        "text": "Where there is great love, there are always miracles.",
+        "author": "Willa Cather"
+      },
+      {
+        "text": "Time you enjoy wasting, was not wasted.",
+        "author": "John Lennon"
+      },
+      {
+        "text": "Every problem has a gift for you in its hands.",
+        "author": "Richard Bach"
+      },
+      {
+        "text": "Sadness flies away on the wings of time.",
+        "author": "Jean de la Fontaine"
+      },
+      {
+        "text": "I have often regretted my speech, never my silence.",
+        "author": "Publilius Syrus"
+      },
+      {
+        "text": "Never put off till tomorrow what you can do today.",
+        "author": "Thomas Jefferson"
+      },
+      {
+        "text": "Minds are like parachutes. They only function when open.",
+        "author": "Thomas Dewar"
+      },
+      {
+        "text": "If a man does his best, what else is there?",
+        "author": "George Patton"
+      },
+      {
+        "text": "The secret of success is constancy to purpose.",
+        "author": "Benjamin Disraeli"
+      },
+      {
+        "text": "Life is a progress, and not a station.",
+        "author": "Ralph Emerson"
+      },
+      {
+        "text": "All seasons are beautiful for the person who carries happiness within.",
+        "author": "Horace Friess"
+      },
+      {
+        "text": "To avoid criticism, do nothing, say nothing, be nothing.",
+        "author": "Elbert Hubbard"
+      },
+      {
+        "text": "All things change; nothing perishes.",
+        "author": "Ovid"
+      },
+      {
+        "text": "Absence makes the heart grow fonder.",
+        "author": "Haynes Bayly"
+      },
+      {
+        "text": "Imagination is the highest kite one can fly.",
+        "author": "Lauren Bacall"
+      },
+      {
+        "text": "The beginning of knowledge is the discovery of something we do not understand.",
+        "author": "Frank Herbert"
+      },
+      {
+        "text": "Love doesn't make the world go round, love is what makes the ride worthwhile.",
+        "author": "Elizabeth Browning"
+      },
+      {
+        "text": "Whenever you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
+        "author": "Arthur Conan Doyle"
+      },
+      {
+        "text": "Good timber does not grow with ease; the stronger the wind, the stronger the trees.",
+        "author": "J. Willard Marriott"
+      },
+      {
+        "text": "I believe that we are fundamentally the same and have the same basic potential.",
+        "author": "Dalai Lama"
+      },
+      {
+        "text": "The winds and waves are always on the side of the ablest navigators.",
+        "author": "Edward Gibbon"
+      },
+      {
+        "text": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+      }
 ]
