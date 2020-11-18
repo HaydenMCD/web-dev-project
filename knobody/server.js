@@ -9,7 +9,11 @@ app.use(express.static('files'));
 
 app.get('/quotes',(req, res) => {
   res.send(data);
-})
+});
+
+app.get('/',(req, res) => {
+  res.send('index.html');
+});
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
