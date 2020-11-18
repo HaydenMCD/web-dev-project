@@ -3,15 +3,14 @@
 fetch('http://localhost:3000/quotes')
 .then(response => response.json())
 .then(function(data){
-    console.log(data);
     let quotes = data;
     genQuotes(quotes);
 });
 
+
 function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
-
 
 function genQuotes(quotes){
 
@@ -22,12 +21,15 @@ function genQuotes(quotes){
         quoteNumbers.push(randomInt(0,52));
     }
 
+    console.log(quoteNumbers);
+
     var noDouble = quoteNumbers.reduce(function(a,b){
         if (a.indexOf(b) < 0) a.push(b)
         {
-            return 0;
+            return a;
         }
     },[]);
+
 
     $('#quote1').append(quotes[noDouble[0]].text);
     $('#quote2').append(quotes[noDouble[1]].text);
