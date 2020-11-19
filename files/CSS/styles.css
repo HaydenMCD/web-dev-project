@@ -99,7 +99,6 @@ h1{
     width: 20vw;
     margin-right: 10vw;
     margin-left: auto;
-    margin-top: 5vh;
 }
 
 .menu-link{
@@ -149,9 +148,16 @@ h1{
 
 .menu-info{
     display: flex;
-    width: 21vw;
+    width: 50vw;
     margin-bottom: 4vw;
     flex-direction: column;
+    margin: 20px;
+}
+
+
+.email-div{
+    display: flex;
+    height: 30px;
 }
 
 .menu-email{
@@ -173,6 +179,7 @@ h1{
     outline: 0;
 }
 
+
 .menu-address{
     margin-bottom: 4vw;
     color: #7e7e7e;
@@ -186,6 +193,7 @@ h1{
     line-height: 1.6vw;
     letter-spacing: 1px;
     font-weight: bold;
+    width: 500px;
 }
 
 .menu-address:hover{

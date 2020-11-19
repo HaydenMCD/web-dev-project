@@ -12,5 +12,13 @@
     "express": "^4.17.1"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtagoPolytechnic/assignment-Hayden-McD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OtagoPolytechnic/assignment-Hayden-McD/issues"
+  },
+  "homepage": "https://github.com/OtagoPolytechnic/assignment-Hayden-McD#readme"
 }
