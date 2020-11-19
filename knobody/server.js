@@ -11,7 +11,7 @@ app.get('/quotes',(req, res) => {
   res.send(data);
 });
 
-app.get('/index',(req, res) => {
+app.get('/',(req, res) => {
   res.send('index.html');
 });
 
