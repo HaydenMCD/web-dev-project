@@ -55,10 +55,7 @@ function genQuotes(quotes){
     //     checkDupe(x, index);
     // })
 
-
- 
-
-
+    
     $('#quote1').append(quotes[quoteNumbers[0]].text);
     $('#quote2').append(quotes[quoteNumbers[1]].text);
     $('#quote3').append(quotes[quoteNumbers[2]].text);
