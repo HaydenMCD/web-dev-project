@@ -69,26 +69,19 @@ h1{
 }
 
 .menu{
-    background-color: black;
-    transition: 1s;
-    opacity: 0;
-    height: 0%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    transform: translate3d(-100vw, 0, 0);
+
+    width: 100vw;
+    height: 100vw;
+    z-index: 110;
 }
 
 .menu.open{
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    opacity: 1;
-    position: fixed;
+    transform: translate3d(0vw, 0, 0);
     z-index: 110;
-    transition: opacity 1s;
-}
-
-.menu.open .menu-link, .menu.open .menu-active-link{
-    opacity: 1;
 }
 
 .menu-links{
