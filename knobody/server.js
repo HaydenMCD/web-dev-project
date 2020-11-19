@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const path = require('path');
 
 var data = require('./quotes.json');
@@ -11,7 +11,7 @@ app.get('/quotes',(req, res) => {
   res.send(data);
 });
 
-app.get('/',(req, res) => {
+app.get('/index',(req, res) => {
   res.send('index.html');
 });
 
