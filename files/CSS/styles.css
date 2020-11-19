@@ -18,6 +18,12 @@ body{
     margin-left: 3vw;
     position: fixed;
     color:gray;
+    text-decoration: none;
+}
+
+.title:hover{
+    text-decoration: none;
+    cursor: pointer;
 }
 
 h1{
