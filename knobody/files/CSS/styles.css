@@ -69,19 +69,27 @@ h1{
 }
 
 .menu{
-    position: fixed;
-    left: 0;
-    right: 0;
-    transform: translate3d(-100vw, 0, 0);
-
-    width: 100vw;
-    height: 100vw;
-    z-index: 110;
+    left: 0%;
+    top: 100vh;
+    right: 0%;
+    bottom: 0%;
+    height: 100vh;
+    transform: translate3d(0px, 0vh, 0px);
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 130px, 61px, 61px;
+    justify-content: space-around;
+    background-color: #1d1d1d;
+    transition: 1s;
 }
 
 .menu.open{
-    transform: translate3d(0vw, 0, 0);
-    z-index: 110;
+    position: fixed;
+    transform: translate3d(0px, -100vh, 0px);
+    display: block;
+    transition: 1s;
+    z-index: 100;
 }
 
 .menu-links{
@@ -98,16 +106,12 @@ h1{
     color: rgb(71, 71, 71);
     text-align: right;
     line-height: 25px;
-    opacity: 0;
-    transition: opacity 1s 1s;
 }
 .menu-active-link{
     font-size: 4vw;
     text-align: right;
     line-height: 25px;
     color: white;
-    transition: opacity 1s 1s;
-    opacity: 0;
 }
 
 .menu-link:hover{
@@ -139,6 +143,54 @@ h1{
     transform: rotate(-45deg) translate(25px, 25px);
     width: 40px;
     height: 2.5px;
+}
+
+
+.menu-info{
+    display: flex;
+    width: 21vw;
+    margin-bottom: 4vw;
+    flex-direction: column;
+}
+
+.menu-email{
+    margin-bottom: 1vw;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: fixed;
+}
+
+.menu-email:hover{
+    color: #7e7e7e;
+    text-decoration: none;
+    outline: 0;
+}
+
+.menu-address{
+    margin-bottom: 4vw;
+    color: #7e7e7e;
+    max-width: 100%;
+    display: inline-block;
+    transition: .4s ease;
+    letter-spacing: 3px;
+    text-decoration: none;
+    position: fixed;
+    font-size: 1vw;
+    line-height: 1.6vw;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.menu-address:hover{
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
 }
 
 /*Links to socials*/
@@ -745,8 +797,6 @@ line-height: 2.4vw;
     vertical-align: middle;
     display: inline-block;
 }
-
-
 
 
 /*Footer of the webpage*/
