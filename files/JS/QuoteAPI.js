@@ -1,6 +1,6 @@
 
 //sending fetch request to local server for the json file
-fetch('https://knobody.herokuapp.com/quotes')
+fetch('/quotes')
 .then(response => response.json())
 .then(function(data){
     let quotes = data;
