@@ -350,6 +350,8 @@ h1{
 }
 
 
+
+
 /*Third Page*/
 .thirdpage {
     height: 160vh;
@@ -1032,3 +1034,63 @@ line-height: 2.4vw;
     color: #fff;
     text-decoration: none;
 }
+
+
+
+.videobackground{
+    position: relative;
+}
+
+#video-button{
+    width: 100px;
+    height: 100px;
+    left: 48%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50);
+}
+
+.far{
+    font-size: 150px;
+    color: white;
+}
+
+.far:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#blackbackground{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    background-color: black;
+    opacity: 0.6;
+
+}
+#showvideo{
+ position:absolute;
+ z-index: 1000000;
+ transform: translate(-50);
+ margin-top: 50px;
+
+}
+#videocontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+iframe{
+    width:1920px;
+    height: 1080px;
+    border: black 1px solid;
+}
+
+
+
