@@ -723,7 +723,6 @@ color: #fff;
     justify-content: flex-start;
 }
 
-
 .owner-text{
     display: flex;
     width: 40vw;
@@ -797,7 +796,6 @@ line-height: 2.4vw;
     transition: .5s ease;
 }
 
-
 /*A picture of the owner that sits beside the information about the owner*/
 .owner-picture-div{
     max-width: 50vw;
@@ -809,9 +807,7 @@ line-height: 2.4vw;
     display: inline-block;
 }
 
-
 /*Footer of the webpage*/
-
 .footer-div{
     height: auto;
     display: flex;
@@ -951,7 +947,6 @@ line-height: 2.4vw;
     font-weight: bold;
 }
 
-
 .footer-links{
     align-self: auto;
     display: flex;
@@ -1035,8 +1030,6 @@ line-height: 2.4vw;
     text-decoration: none;
 }
 
-
-
 .videobackground{
     position: relative;
 }
@@ -1070,6 +1063,7 @@ line-height: 2.4vw;
     opacity: 0.6;
 
 }
+
 #showvideo{
  position:absolute;
  z-index: 1000000;
@@ -1077,6 +1071,7 @@ line-height: 2.4vw;
  margin-top: 50px;
 
 }
+
 #videocontainer{
     display: flex;
     justify-content: center;
@@ -1086,11 +1081,9 @@ line-height: 2.4vw;
     position: fixed;
     top: 0;
 }
+
 iframe{
     width: 1300px;
     height: 900px;
     border: black 1px solid;
 }
-
-
-
